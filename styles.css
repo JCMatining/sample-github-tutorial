@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: #5dd9ff;
+}
+
+.category {
+    border-width: 4px;
+    border-style: solid;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.animals {
+    background-color: orange;
+    border-color: rgb(238, 255, 0) orange;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+.months {
+    background-color: blue;
+    border-color: rgb(19, 0, 128) red;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+.countries {
+    background-color: green;
+    border-color: rgb(255, 11, 11) yellow;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+.food {
+    background-color: red;
+    background-color: red(240, 236, 6);
+    border-color: rgb(0, 255, 34) rgb(240, 236, 6);
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #f7f7f7;
+}
+
+p {
+    margin: 0;
+    font-size: 1rem;
+    color: #f7f7f7;
+}
